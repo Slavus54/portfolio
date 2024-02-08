@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "nodemon index.js",
+    "roll": "concurrently \"npm run server\" \"npm run dev\""
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "centum.js": "^2.0.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "next": "14.0.3",
+    "node": "^18.11.0",
+    "nodemon": "^3.0.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-intersection-observer": "^9.5.3",
+    "react-map-gl": "^5.3.21"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
