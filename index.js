@@ -10,8 +10,13 @@ const port = process.env.PORT || 4000
 const next = require('next')
 
 const app = next({dev, hostname, port})
+const handle = app.getRequestHandler()
 
 app.prepare().then(() => {
+
+    server.get('*', (req, res) => {
+        return handle(req, res)
+    })
 
     server.use(cors())
     server.use(body_parser.urlencoded({extended: true}))
