@@ -10,6 +10,6 @@ FrontEnd: *NextJS, TypeScript, SSR, centum.js, react-map-gl, react-intersection-
 Backend: *NodeJS,. ExpressJS, cors*  
 API: *REST API, axios*  
 
-С помощью server-actions реализована подгрузка карточек проектов с сервера и отображение в зависимости от прокрутки страницы.  
+### Features
 
-### URL  
+С помощью server-actions реализована подгрузка карточек проектов с сервера и отображение в зависимости от прокрутки страницы.  
